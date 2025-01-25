@@ -8,8 +8,8 @@ function sumarElementos(numeros: number[]): number {
     return suma;
   }
     
-    function Componente() {
-      const numeros = [15, 30, 45, 60, 75];
+    function Elementos() {
+      const numeros = [26, 86, 50, 90, 5];
       const resultado = sumarElementos(numeros);
     
       return (
@@ -19,4 +19,4 @@ function sumarElementos(numeros: number[]): number {
       );
     }
     
-    export default Componente;
+    export default Elementos;
