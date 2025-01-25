@@ -1,14 +1,19 @@
+import { Suma } from './components/Suma';
+//import { Retorno } from "./components/Retorno"
+//import { Calificaciones } from "./components/Calificaciones"
 //import { Contador } from "./components/Contador"
-//import { Suma } from './components/Suma';
+
+
 
 
 export const App = () => {
   return (
     <div className="mt-2" >
       <h1> Tarea 1 </h1>
-      <Suma/>
+      {<Suma/>}
+      {/*<Retorno/>*/}
       {/*<Contador/>*/}
-
+      {/*<Calificaciones/>*/}
     </div>
   )
 }
